@@ -1,0 +1,6 @@
+type Acorn = 
+ service {
+   acornPrincipal: () -> (opt principal) query;
+   init: (blob) -> ();
+ };
+service : () -> Acorn

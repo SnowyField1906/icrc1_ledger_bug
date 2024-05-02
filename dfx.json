@@ -1,0 +1,15 @@
+{
+	"canisters": {
+		"main": {
+			"type": "motoko",
+			"main": "./main.mo",
+			"dependencies": [],
+			"declarations": {
+				"bindings": ["js", "ts", "did"],
+				"node_compatibility": true
+			}
+		}
+	},
+	"dfx": "0.17.0",
+	"version": 2
+}
